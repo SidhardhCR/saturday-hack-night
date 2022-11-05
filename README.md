@@ -8,5 +8,5 @@ https://discord.com/api/oauth2/authorize?client_id=1038453350917734400&permissio
 Decription
 ----------
 It is basically a quote bot , gives random quotes. <br>
-command for quote is !quotes . \n
+command for quote is !quotes . <br>
 Also its a encoraging bot , if you say sad words it will encorage you.
