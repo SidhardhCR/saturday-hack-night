@@ -3,7 +3,7 @@ import random
 import requests
 import json
 from keep_alive import keep_alive
-Token = 'MTAzODQ1MzM1MDkxNzczNDQwMA.GpGN8_.XACQr3p_Ca-DdRi7f6cI7tVhC3s6FZ4ZN2qYbA'
+import os
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -61,4 +61,4 @@ async def on_message(message):
         await message.channel.send(quote) 
     
 keep_alive()
-client.run(Token)
+client.run(os.getenv('TOKEN'))
